@@ -12,8 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      with:
-        token: ${{ secrets.GITHUB_TOKEN_ACTION }}
+        with:
+          token: ${{ secrets.GITHUB_TOKEN_ACTION }}
 
       - name: Pushing changes
         uses: ad-m/github-push-action@master
